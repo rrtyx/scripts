@@ -6,10 +6,10 @@ export NEZHA_KEY=${NEZHA_KEY:-''}
 export ARGO_DOMAIN=${ARGO_DOMAIN:-''}   
 export ARGO_AUTH=${ARGO_AUTH:-''}    
 export CFIP=${CFIP:-'www.visa.com.tw'} 
-export CFPORT=${CFPORT:-'8443'}         
+export CFPORT=${CFPORT:-'14355'}         
 export NAME=${NAME:-'CT8'}        
 export FILE_PATH=${FILE_PATH:-'./tmp'}
-export ARGO_PORT=${ARGO_PORT:-'2025'}
+export ARGO_PORT=${ARGO_PORT:-'19488'}
 
 if [ ! -d "${FILE_PATH}" ]; then
     mkdir ${FILE_PATH}
